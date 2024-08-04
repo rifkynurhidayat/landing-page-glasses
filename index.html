@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Store Glasses</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <section class="nav">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <a class="navbar-brand" data-aos="fade-in" href="#">Glasses Store</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#products">Product</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#shipping">Pengiriman</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#alamat">Maps</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </section>
+
+    <div class="floating-container">
+      <div class="floating-button">+</div>
+      <div class="element-container">
+        <span class="float-element">
+          <i class="fa-solid fa-phone"></i>
+        </span>
+        <span class="float-element">
+          <i class="fa-solid fa-brands fa-whatsapp"></i>
+        </span>
+      </div>
+    </div>
+
+    <section id="home" class="heading">
+      <div class="container">
+        <div class="row mt-5">
+          <div class="col-12 col-md-6 col-lg-8">
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="1200">
+                  <img src="img/banner.png" class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item" data-bs-interval="2300">
+                  <img src="img/banner2.png" class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item" data-bs-interval="3200">
+                  <img src="img/banner3.png" class="d-block w-100" alt="..." />
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 text-center">
+            <h3 class="mt-2">Find Your Perfect</h3>
+            <h3 class="mt-2">eyewear look</h3>
+            <div class="container">
+              <p class="text-justify">
+                The Eyewear market is experiencing robust growth, set to reach US$148.60 billion in 2024 with a 4.04% annual increase. The United States spearheads this expansion, anticipating a revenue of US$35,160 million.
+              </p>
+            </div>
+            <div class="button mt-4">
+              <a href=""><i class="fa-brands fa-whatsapp me-2"></i>WhatsApp</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about mt-5" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card">
+              <div class="card-body">
+                <img src="/img/about.jpg" class="w-100" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-8">
+              <div class="shadow p-3 mb-5 bg-body rounded">
+                <h5 class="text-center">About Glasses Store</h5>
+                <p class="container text-justify mt-2">Toko kacamata adalah sebuah ritel khusus yang menyediakan berbagai produk untuk memenuhi kebutuhan penglihatan dan estetika pelanggan.</p>
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="products" class="products mt-5">
+      <div class="container">
+        <h3 class="text-center mb-4">Produk</h3>
+        <div id="productCarousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <!-- Carousel Item 1 -->
+            <div class="carousel-item active">
+              <div class="row g-3">
+                <div class="col-6 col-sm-4 col-md-4 col-lg-4" data-aos="fade-in" data-aos-delay="100">
+                  <div class="card custom-card">
+                    <img src="img/produk1.png" class="card-img-top object-fit-contain" alt="Kacamata 1" />
+                    <div class="card-body">
+                      <p class="card-text text-center">Kacamata 1</p>
+                      <p class="card-text text-center">Harga: Rp. 100.000</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-4 col-lg-4" data-aos="fade-in" data-aos-delay="200">
+                  <div class="card custom-card">
+                    <img src="img/produk2.png" class="card-img-top object-fit-contain" alt="Kacamata 2" />
+                    <div class="card-body">
+                      <p class="card-text text-center">Kacamata 2</p>
+                      <p class="card-text text-center">Harga: Rp. 100.000</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-4 col-lg-4" data-aos="fade-in" data-aos-delay="300">
+                  <div class="card custom-card">
+                    <img src="img/produk3.png" class="card-img-top" alt="Kacamata 3" />
+                    <div class="card-body">
+                      <p class="card-text text-center">Kacamata 3</p>
+                      <p class="card-text text-center">Harga: Rp. 100.000</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-4 col-lg-4" data-aos="fade-in" data-aos-delay="400">
+                  <div class="card custom-card">
+                    <img src="img/produk4.png" class="card-img-top object-fit-contain" alt="Kacamata 3" />
+                    <div class="card-body">
+                      <p class="card-text text-center">Kacamata 4</p>
+                      <p class="card-text text-center">Harga: Rp. 100.000</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#productCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#productCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section id="shipping" class="shipping mt-5">
+      <div class="container">
+        <h4 class="text-center mt-2">Pengiriman</h4>
+        <div class="row shadow p-3 mb-5 bg-body rounded">
+          <div class="col-6 col-sm-4 col-md-4 col-lg-4 mt-4" data-aos="fade-in" data-aos-delay="100">
+            <div class="d-flex align-items-center gap-3">
+              <i class="fa-solid fa-thumbs-up fs-5"></i>
+              <h4 class="mb-0">Kualitas Terjamin</h4>
+            </div>
+            <p class="card-text">Produk original dengan material berkuliatas</p>
+          </div>
+          <div class="col-6 col-sm-4 col-md-4 col-lg-4 mt-4" data-aos="fade-in" data-aos-delay="200">
+            <div class="d-flex align-items-center gap-3">
+              <i class="fa-solid fa-boxes-packing"></i>
+              <h4 class="mb-0">Packing Rapih</h4>
+            </div>
+            <p class="card-text">Packing menggunakan bubble warp tebal</p>
+          </div>
+          <div class="col-6 col-sm-4 col-md-4 col-lg-4 mt-4" data-aos="fade-in" data-aos-delay="300">
+            <div class="d-flex align-items-center gap-3">
+              <i class="fa-solid fa-people-robbery"></i>
+              <h4 class="mb-0">Original & Bergaransi</h4>
+            </div>
+            <p class="card-text">Jika produk tidak sesuai uang akan kami kembalikan</p>
+          </div>
+          <div class="col-6 col-sm-4 col-md-4 col-lg-4 mt-4" data-aos="fade-in" data-aos-delay="400">
+            <div class="d-flex align-items-center gap-3">
+              <i class="fa-solid fa-handshake"></i>
+              <h4 class="mb-0">Bisa COD</h4>
+            </div>
+            <p class="card-text">Pembayaran bisa dilakukan dengan bayar ditempat</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="alamat" class="alamat mt-5">
+      <div class="container">
+        <div class="row g-0">
+          <div class="col-12 col-sm-5 col-md-6 col-lg-12 mt-3">
+            <h4 class="text-center mb-4">Lokasi Kami</h4>
+            <div class="map-container">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.761759955744!2d-122.40181298468126!3d37.78583477975794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085808c634eecdf%3A0x6d87a1e582a4e4d7!2s1600%20Amphitheatre%20Parkway%2C%20Mountain%20View%2C%20CA%2094043!5e0!3m2!1sen!2sus!4v1626437596594!5m2!1sen!2sus"
+                frameborder="0"
+                allowfullscreen=""
+                aria-hidden="false"
+                tabindex="0"
+                width="100%"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.min.js"></script>
